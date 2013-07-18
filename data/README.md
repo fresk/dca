@@ -69,7 +69,7 @@ Historic Sites
    - ZIP code
    
    
-National Historic Landmarks in Iowa
+National Historic Landmarks in Iowa **
 ===================================
  - recieved: wikipedia link (24 records)
  - href: http://en.wikipedia.org/wiki/List_of_National_Historic_Landmarks_in_Iowa
@@ -80,6 +80,7 @@ National Historic Landmarks in Iowa
    - Locality (City, State + geolocation)
    - County
    - Description (0 - 1 sentence (but most have their own wikipedia page))
+ - scraped the website and stored all data including links to highres original images on wikipedia servers.
    
 
 Underground Railroad Sites
