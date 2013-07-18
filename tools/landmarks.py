@@ -37,17 +37,17 @@ def parse_row(row):
     r['locality'] = cells[4].a.string
 
     geo = cells[4].find_all("span", class_="geo")
+    lat, lon = 0, 0
     if geo:
-        r['geo'] = map(float, geo[0].string.split(';'))
-    else:
-        r['geo'] = [0,0]
+        lat, lon = map(float, geo[0].string.split(';'))
+    r['geo'] = {'lat':lat, 'lng':lon}
 
     r['county'] = "".join(cells[5].a.strings)
     r['info'] = "".join(cells[6].strings)
 
     return r
 
-#fetch()
+fetch()
 page = open(fname, 'r')
 soup = BeautifulSoup(page)
 table = soup.find("table", { "class" : "wikitable sortable" })
