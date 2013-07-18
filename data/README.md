@@ -1,4 +1,12 @@
-National Registry of Historic Sites
+I'm confused about the differences between following datasets:
+ - National Register Districts
+ - National Register Buildings <-- ( I think this is the one listed as "National Registry of Historic Sites" below)
+ - Local Landmarks
+ - Historic Sites  <-- have this, pretty sparse but OK
+ - National Historic Landmarks
+
+
+National Registry of Historic Sites **
 ===========================
 * received as spreadshseet
 * status:  fully parsed, geocoded, imported ~ 2200 entries
@@ -13,7 +21,7 @@ National Registry of Historic Sites
 * notes:  we received a second version of the spreadhseet that also has geolocation in NAD83 mercator coordinates, which may be more accurate than the google query, so we can convert those instead
 
 
-Barns
+Barns **
 =====
 * received as spreadshseet
 * status:  fully parsed, geocoded, imported 77 entries
@@ -36,7 +44,7 @@ Cultural & Entertainment Districts
  - notes:  website has list of all the district, their names and city.  also has map images showing the regions/districts. we should try to get the coordinates / polygons (points of the stroke/line for the shape) some format so we can draw them ourselves on the map.  I assume this data exists, given the rendered images.  Without it, we either cant display the areas or need to trace them ourselves in a GIS application.
 
 
-Museum Data
+Museum Data *
 ============
 - received link to website
 - href: http://www.iowamuseums.org/aspx/museum/search.aspx
@@ -73,5 +81,118 @@ National Historic Landmarks in Iowa
    - County
    - Description (0 - 1 sentence (but most have their own wikipedia page))
    
-   
-   
+
+Underground Railroad Sites
+==========================
+ - Contact: Doug Jones @ SHSI 
+ - received website link
+ - href: http://www.iowahistory.org/museum/ugrr-ia/sites.html
+ - lists 4 existing "structures" in Iowa, each has its own website
+
+
+Zoo
+===
+ - Contact Pearl @ IAC
+
+
+Arts & Cultural Centers
+=======================
+ - Contact Pearl @ IAC
+ 
+
+Opera Houses & Centers
+=======================
+ - Contact Pearl @ IAC
+
+Theaters
+=======================
+ - Contact Pearl @ IAC
+
+
+Science Centers
+======================
+ - Contact: ??
+ 
+ 
+Gardens & Botanical Centers
+===========================
+ - Contact Pearl @ IAC
+ 
+
+Medal of Honor Recipient Birthplaces
+====================================
+ - Contact: Susan
+  
+
+Famous Iowan Birthplaces
+====================================
+ - Contact: Jessica R
+ 
+
+Iowa Award Recipient Birthplaces
+====================================
+ - Contact: ??
+  
+
+Certified Local Governments
+====================================
+ - Contact: ?? @ SHSI
+ 
+
+Great Places
+====================================
+ - Contact: Jessica R
+ 
+
+Significant Pieces of Land
+====================================
+ - Contact: ??
+ 
+
+Scenic Byways
+====================================
+ - Contact: Jessica R
+ 
+  
+Historical Societies & Commissions
+====================================
+ - Contact: SK
+  
+ 
+Ampitheaters & Riverwalks
+====================================
+ - Contact: IAC
+  
+ 
+Oddball Sites
+====================================
+ - Contact: ??
+  
+ 
+Colleges & Universities
+====================================
+ - Contact: IAC & SHSI
+  
+ 
+Farmers Markets
+====================================
+ - Contact: Matt @ IAC
+  
+ 
+Festivals
+====================================
+ - Contact: ??
+  
+ 
+Concerts
+====================================
+ - Contact: ??
+  
+ 
+Cultural Events
+====================================
+ - Contact: ??
+  
+ 
+
+ 
